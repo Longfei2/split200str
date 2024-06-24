@@ -23,7 +23,7 @@
 #' )
 #'
 #'
-#' new_test_df <- test_df %>% dso_split_var(text, "text", "\\;")
+#' new_test_df <- test_df %>% split_var(text, "text", "\\;")
 #'
 #' @export
 split_var <- function(data, target_var, outvar_name, sep = ";", len = 200L) {
